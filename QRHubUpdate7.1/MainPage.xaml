@@ -1,0 +1,71 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="QRHubUpdate7._1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800" 
+    d:DataContext="{d:DesignData SampleData/MainViewModelSampleData.xaml}"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+ 
+
+        <controls:Panorama Title="qr hub">
+            
+ 
+  
+            <controls:PanoramaItem Header="QRify text">
+                <ScrollViewer HorizontalAlignment="Left" Height="488" VerticalAlignment="Top" Width="419" Margin="0,0,0,-66">
+                    <Grid x:Name="LayoutRoot1" Background="Transparent">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <!--ContentPanel - place additional content here-->
+                        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+                            <TextBox Height="80" HorizontalAlignment="Left" Margin="12,6,0,0" Name="textBox1" Text="" VerticalAlignment="Top" Width="438" />
+                            <Button Content="QR-ify" Height="76" HorizontalAlignment="Left" Margin="85,91,0,0" Name="button1" VerticalAlignment="Top" Width="250" Click="button1_Click"  />
+                            <Image Height="250" HorizontalAlignment="Left" Margin="85,172,0,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="250" />
+                            <Button Content="Save QR image" Height="76" HorizontalAlignment="Left" Margin="85,427,0,0" Name="button2" VerticalAlignment="Top" Width="250" Click="button2_Click"  />
+                        </Grid>
+
+                    </Grid>
+                </ScrollViewer>
+
+            </controls:PanoramaItem>
+ 
+           
+            <controls:PanoramaItem Header="QRify contact" FontSize="20" Width="455">
+                <ScrollViewer HorizontalAlignment="Left" Height="634" VerticalAlignment="Top" Width="420">
+                    <Grid x:Name="LayoutRoot2" Background="Transparent" Height="634">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="37*"/>
+                            <ColumnDefinition Width="33*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <!--ContentPanel - place additional content here-->
+                        <Grid x:Name="ContentPanel2" Grid.Row="1" Margin="12,0,12,0" Grid.ColumnSpan="2">
+                            <Button Content="Choose Contact" Height="78" HorizontalAlignment="Left" Margin="25,0,0,0" Name="button11" VerticalAlignment="Top" Width="332" Click="button11_Click"  />
+                            <Image Height="233" HorizontalAlignment="Left" Margin="79,83,0,0" Name="image12" Stretch="Fill" VerticalAlignment="Top" Width="221" />
+                            <Button Content="QR-ify" Height="78" HorizontalAlignment="Left" Margin="25,316,0,0" Name="button12" VerticalAlignment="Top" Width="332" Click="button12_Click"  />
+                            <Button Content="Save QR Image" Height="78" HorizontalAlignment="Left" Margin="25,400,0,0" Name="button13" VerticalAlignment="Top" Width="332" Click="button13_Click"  />
+                        </Grid>
+                    </Grid>
+                </ScrollViewer>
+            </controls:PanoramaItem>
+        </controls:Panorama>
+    </Grid>
+</phone:PhoneApplicationPage>

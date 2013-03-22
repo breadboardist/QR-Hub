@@ -1,0 +1,15 @@
+c:\users\prem\documents\visual studio 2012\Projects\QRHubUpdate7.1\QRHubUpdate7.1\Bin\Release\ApplicationIcon.png
+c:\users\prem\documents\visual studio 2012\Projects\QRHubUpdate7.1\QRHubUpdate7.1\Bin\Release\Background.png
+c:\users\prem\documents\visual studio 2012\Projects\QRHubUpdate7.1\QRHubUpdate7.1\Bin\Release\QRHubUpdate7.1.dll
+c:\users\prem\documents\visual studio 2012\Projects\QRHubUpdate7.1\QRHubUpdate7.1\Bin\Release\QRHubUpdate7.1.pdb
+c:\users\prem\documents\visual studio 2012\Projects\QRHubUpdate7.1\QRHubUpdate7.1\Bin\Release\AppManifest.xaml
+c:\users\prem\documents\visual studio 2012\Projects\QRHubUpdate7.1\QRHubUpdate7.1\Bin\Release\QRHubUpdate7._1.xap
+c:\users\prem\documents\visual studio 2012\Projects\QRHubUpdate7.1\QRHubUpdate7.1\Bin\Release\Microsoft.Phone.Controls.dll
+c:\users\prem\documents\visual studio 2012\Projects\QRHubUpdate7.1\QRHubUpdate7.1\Bin\Release\Microsoft.Phone.Controls.xml
+c:\users\prem\documents\visual studio 2012\Projects\QRHubUpdate7.1\QRHubUpdate7.1\obj\Release\App.g.cs
+c:\users\prem\documents\visual studio 2012\Projects\QRHubUpdate7.1\QRHubUpdate7.1\obj\Release\MainPage.g.cs
+c:\users\prem\documents\visual studio 2012\Projects\QRHubUpdate7.1\QRHubUpdate7.1\obj\Release\QRHubUpdate7.1.g.resources
+c:\users\prem\documents\visual studio 2012\Projects\QRHubUpdate7.1\QRHubUpdate7.1\obj\Release\QRHubUpdate7.1.dll
+c:\users\prem\documents\visual studio 2012\Projects\QRHubUpdate7.1\QRHubUpdate7.1\obj\Release\QRHubUpdate7.1.pdb
+c:\users\prem\documents\visual studio 2012\Projects\QRHubUpdate7.1\QRHubUpdate7.1\obj\Release\XapCacheFile.xml
+C:\Users\Prem\Documents\Visual Studio 2012\Projects\QRHubUpdate7.1\QRHubUpdate7.1\obj\Release\QRHubUpdate7.1.csprojResolveAssemblyReference.cache
