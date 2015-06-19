@@ -6,7 +6,7 @@ A QR creator app for Windows Phone 7/7.8/8. The app makes use of [Google Charts 
 License 
 ========
 
-This project is licensed under [GNU General Public License, version 3 (GPL-3.0)](http://opensource.org/licenses/GPL-3.0)
+This project is licensed under [GNU General Public License, version 3 (GPL-3.0)](http://www.gnu.org/licenses/gpl-3.0.txt)
 
 Building
 ========
