@@ -1,4 +1,4 @@
-QR-Hub
+QR-Hub [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 ======
 
 A QR creator app for Windows Phone 7/7.8/8. The app makes use of [Google Charts API](https://developers.google.com/chart/) to create QR code of text or contacts.
